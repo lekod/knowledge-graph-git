@@ -59,7 +59,7 @@ To replicate the code and its results, please follow these steps:
 The knowledge graph project is a master thesis project and the aim is to make the data that is collected publicly accessible in the open bydata portal. 
 
 
-## Steps taken and Roadmap:
+## Steps taken and roadmap:
 
 - [X] Build a webscraper from scratch (November)
 - [X] Run webscraper in AWS Instance and receive a final dataset (December)
@@ -74,7 +74,7 @@ The knowledge graph project is a master thesis project and the aim is to make th
 - [X] Final release end of April 2024
 - [ ] Host on open data plattform (hopefully in May)
 
-## Bei Fragen und Anregungen: 
-Gerne bei Lena melden :)
+## Questions or suggestions: 
+Please contact Lena :)
 
 
