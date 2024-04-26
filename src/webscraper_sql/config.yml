@@ -1,0 +1,40 @@
+# Using this config file, it is possible to set all relevant information for the webscraper in this config
+
+# The headers of information you want to scrape belong here:
+HEADERS:
+  - first_website
+  - first_title
+  - second_website
+  - second_title
+  - date
+  - time
+  - text
+
+# Configure the database name here
+DATABASE_NAME: scraped_data.db
+
+# Configure the table name of SQLite table
+TABLE_NAME: scraped_data
+
+# Use the root URL you want to scrape without any characters or slashes behind
+# The more addresses to scrape, the better, since multithreading is used
+BASE_ADDRESS_LIST:
+    - https://www.stmd.bayern.de
+    - https://www.stmb.bayern.de
+    - https://www.justiz.bayern.de
+    - https://www.km.bayern.de
+    - https://www.stmwk.bayern.de
+    - https://www.stmfh.bayern.de
+    - https://www.stmwi.bayern.de
+    - https://www.stmuv.bayern.de
+    - https://www.stmelf.bayern.de
+    - https://www.stmas.bayern.de
+    - https://www.stmgp.bayern.de
+    - https://www.stmi.bayern.de
+
+# Give a time after that the webpage request should stop: cut production time
+TIMEOUT: 5
+
+# State the file names you want to set the counter in
+INPUT_FILE: sc_address_counter
+OUTPUT_FILE: sc_address_counter_list

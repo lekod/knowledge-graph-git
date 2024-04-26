@@ -1,0 +1,14 @@
+# This config file is solely for time-series forecasting and link prediction
+
+# Here it is possible to determine which splits should be examined
+# This is the variable for the classifier called link_pred_train_class (please give the slot as input
+# (1-5 and VAL and PRED):
+SLOT_NUM: 1
+
+# These are the variables for the time-series prediction link_pred_lstm.py:
+# For the first part to preprocess the data (please give the year from 2010 to 2024 as input:
+SLOTYEAR_TIME: 2024
+
+# For the second part to use the model per split (please give number from 1-5 as input):
+SLOTNUM_TIME: 5
+
