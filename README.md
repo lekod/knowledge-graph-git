@@ -75,6 +75,6 @@ The knowledge graph project is a master thesis project and the aim is to make th
 - [ ] Host on open data plattform (hopefully in May)
 
 ## Bei Fragen und Anregungen: 
-Bei @lena.kolb@byte.bayern melden, beziehungsweise nach dem 30.04.24 bei lena-kolb@t-online.de :)
+Gerne bei Lena melden :)
 
 
