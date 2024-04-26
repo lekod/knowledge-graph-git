@@ -33,7 +33,7 @@ To replicate the code and its results, please follow these steps:
     - Comment out code parts if you do not need these
     - run webscraper_sql/main.py
   - To use the cleaning and named-entity-recognition:
-    - Prerequisits: You need text data from the webscraper in sqllite format (csv does also work, but changes on the code are needed) and the org_count_list.csv. The database is called scraped_data.db. 
+    - Prerequisits: You need text data from the webscraper in sqllite format (csv does also work, but changes on the code are needed) and the org_count_list.csv. The database is called scraped_data.db, but is too large to post it on Github. You can find it in the Google drive directory [here](https://drive.google.com/file/d/1UDlwW82oly-WDNLvsRPkRAEtw3cZU-Fx/view?usp=drive_link)
     - Check that your data is structured like the sqllite 3 database of the webscraper
     - Download the model of FLAIR ner-german-large: https://huggingface.co/flair/ner-german-large
     - Run the ner_sql/main.py
